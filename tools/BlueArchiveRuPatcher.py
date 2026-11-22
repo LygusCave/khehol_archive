@@ -8,7 +8,7 @@ import shutil
 from datetime import datetime
 from PyTools.MyAwesomeTool.MyUtil import run_cmd, compress_folder_with_progress
 from assistance_script.resize_exceldb_to_raw import main as resize_main
-from assistance_script.convert_tw_to_cn import main as translate_main
+from assistance_script.translator import main as translate_main
 import hashlib
 import os
 from xtractor.table import TableProcess
